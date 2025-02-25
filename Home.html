@@ -1,0 +1,290 @@
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<style>
+   #div1{
+    height: 100px;
+    
+    background-color: white;
+   }
+   #div2{
+    height: 150px;
+    
+    background-color: antiquewhite;
+   }
+   h1{
+    margin: auto;
+   }
+   .a1{
+    margin-right: 10px ;
+    padding: 5px;
+    border: 1px solid blue;
+   }
+   .a2{
+   
+    padding: 5px;
+    border: 1px solid red;
+   }
+.div2{
+    padding-left: 50px;
+}
+#divitem{
+    margin: auto;
+}
+#btn{
+   background-color: forestgreen;
+}
+.div5{
+    padding-right: 0%;
+}
+#login{
+    border: 1px solid blue  ;
+    margin-right: 10px;
+}
+#signup{
+    border: 1px solid red;
+    
+}
+
+#readmore{
+    border: 1px solid black;
+    
+}
+.backgr{
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 30%;
+    
+   
+   
+}
+
+
+</style>
+<body>
+
+    <div class="navbar pe-5 ps-5 " id="div1">
+        <div class="nav-logo">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <h1><b>FURNITURE</b></h1>
+    
+        <button class="btn" id="login" type="button" data-toggle="modal" data-target="#myModal">Login</button>
+
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-lg"> 
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Form Login</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                       
+                        <form>
+                            <div class="form-group">
+                                <label for="email">Email address:</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Password:</label>
+                                <input type="password" class="form-control" id="pwd">
+                            </div>
+                            <div class="form-group form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox"> Remember me
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <a href="Signup.html" class="nav-link text-dark" id="signup">Sign up</a>
+       
+    </div>
+    
+    <div class="navbar pe-5 ps-5 container-fluid" id="div2">
+        <div class="nav-logo">
+            <img src="images/logo2.png" alt="logo">
+        </div>
+        <div id="divitem" class="d-flex">
+            <a href="Home.html" class="nav-link text-dark"><b>Home</b></a>
+            <div class="nav-Link text-dark"><b>Shop</b></div>
+            <div class="dropdown">
+                <button class="btn dropdown-toggle nav-link text-dark" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   <b> Category</b>
+                </button>
+              
+            </div>
+            <a href="Store.html" class="nav-link text-dark"><b>About Us</b></a>
+                
+            <div class="nav-Link text-dark"><b>Contact Us</b></div>
+
+        </div>
+        <div>
+            <form action="#" class="div5  d-flex ">
+                <input class="form-control " type="text" placeholder="Search">
+                <button class="btn" id="btn" type="button">Search</button>
+            </form>
+           </div>
+       
+    </div>
+    <div class="backgr">
+        <img src="images/background.png" alt="background" width="100%" class="backgr">
+        <div class="text container-fluid">
+            <h1>Make Your Home <br> Modern Design</h1>
+            <p>Lorem's house is a charming two-story residence located in the heart of a quaint suburban neighborhood ?</p>
+            <button class="btn bg-light" style="border: 1px solid black;" type="button" >Shop now</button>
+        </div>
+    </div> 
+    <div class="mt-5 mb-5" >
+        
+        <div><h1 class="text-center"> <b>SERVICES WE OFFER</b></h1> </div> <br> <br>
+
+
+        <div class="d-flex container-fluid">
+            <div class="card ms-5" style="width: 30%;">
+                <img src="images/c1.png" alt="images" >
+                <div class="card-body">
+                    <p class="card-title text-center" ><b>CUSTOM MENUS</b></p>
+                    <p class="card-text text-center">Lorem's house is a charming sidence <br> locatedheart of a quaint suburban neighborhood. <br> With i hoands a welcoming <br> beacon on the block</p>
+                    <button class="btn" type="button" style="border: 1px solid black; margin-left: 40%;">View More</button>
+                </div>
+            </div>
+            <div class="card ms-5" style="width: 30%; "  >
+                <img src="images/c3.png" alt="images"  height="55%">
+                <div class="card-body">
+                    <p class="card-title text-center" ><b>USER FRIENDLEY</b></p>
+                    <p class="card-text text-center">Lorem's house is a charming sidence <br> locatedheart of a quaint suburban neighborhood. <br> With i hoands a welcoming <br> beacon on the block</p>
+                    <button class="btn" type="button" style="border: 1px solid black; margin-left: 40%;">View More</button>
+                </div>
+            </div>
+            <div class="card ms-5" style="width: 30%;">
+                <img src="images/c1.png" alt="images" >
+                <div class="card-body">
+                    <p class="card-title text-center" ><b>CUSTOM MENUS</b></p>
+                    <p class="card-text text-center">Lorem's house is a charming sidence <br> locatedheart of a quaint suburban neighborhood. <br> With i hoands a welcoming <br> beacon on the block</p>
+                    <button class="btn" type="button" style="border: 1px solid black; margin-left: 40%;">View More</button>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="d-flex container-fluid ms-5 ">
+            <div style="position: relative;">
+                <img src="images/ch.png" alt="ghe" width="90%">
+                <div style="position: absolute; top: 3%; left: 2%;">
+                    <h1 >Best Chair</h1>
+                    <p>Lorem ipsum dolor</p>
+                    <button class="btn" type="button" style="border: 1px solid black; ">View More</button>
+                </div>
+            </div>
+            <div style="position: relative;">
+                <img src="images/ch.png" alt="ghe" width="90%">
+                <div style="position: absolute; top: 3%; left: 2%;">
+                    <h1 >Best Chair</h1>
+                    <p>Lorem ipsum dolor</p>
+                    <button class="btn" type="button" style="border: 1px solid black; ">View More</button>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div> 
+            <div>
+            <h1 class="text-center"><b>TREANDLY PRODUCT</b></h1>
+            </div>
+            <br><br>
+
+        <div class="d-flex">
+            <div class="card ms-3" style="width: 23%; ">
+                <img src="images/card1.png" alt="ghesofa">
+                <div class="card-body">
+                    <h1 class="card-title text-center">Best Sofa</h1>
+                    <p class="card-text text-center"><b>$1000.50</b></p>
+                    <button class="btn" type="button" style="border: 1px solid black; margin-left: 25%; width: 50%;">Shop Now</button>
+                </div>
+            </div>
+            <div class="card ms-5" style="width: 23%; ">
+                <img src="images/card3.png" alt="ghesofa">
+                <div class="card-body">
+                    <h1 class="card-title text-center">New Chair</h1>
+                    <p class="card-text text-center"><b>$300.20</b></p>
+                    <button class="btn" type="button" style="border: 1px solid black; margin-left: 25%; width: 50%;">Shop Now</button>
+                </div>
+            </div>
+            <div class="card ms-5" style="width: 23%; ">
+                <img src="images/card1.png" alt="ghesofa">
+                <div class="card-body">
+                    <h1 class="card-title text-center">Best Sofa</h1>
+                    <p class="card-text text-center"><b>$1000.50</b></p>
+                    <button class="btn" type="button" style="border: 1px solid black; margin-left: 25%; width: 50%;">Shop Now</button>
+                </div>
+            </div>
+            <div class="card ms-5" style="width: 23%; ">
+                <img src="images/card3.png" alt="ghesofa">
+                <div class="card-body">
+                    <h1 class="card-title text-center">New Chair</h1>
+                    <p class="card-text text-center"><b>$300.20</b></p>
+                    <button class="btn" type="button" style="border: 1px solid black; margin-left: 25%; width: 50%;">Shop Now</button>
+                </div>
+            </div>
+        </div>
+        <br> <br>
+        <div class="d-flex">
+            <div class="card ms-3" style="width: 23%; ">
+                <img src="images/card1.png" alt="ghesofa">
+                <div class="card-body">
+                    <h1 class="card-title text-center">Best Sofa</h1>
+                    <p class="card-text text-center"><b>$1000.50</b></p>
+                    <button class="btn" type="button" style="border: 1px solid black; margin-left: 25%; width: 50%;">Shop Now</button>
+                </div>
+            </div>
+            <div class="card ms-5" style="width: 23%; ">
+                <img src="images/card3.png" alt="ghesofa">
+                <div class="card-body">
+                    <h1 class="card-title text-center">New Chair</h1>
+                    <p class="card-text text-center"><b>$300.20</b></p>
+                    <button class="btn" type="button" style="border: 1px solid black; margin-left: 25%; width: 50%;">Shop Now</button>
+                </div>
+            </div>
+            <div class="card ms-5" style="width: 23%; ">
+                <img src="images/card1.png" alt="ghesofa">
+                <div class="card-body">
+                    <h1 class="card-title text-center">Best Sofa</h1>
+                    <p class="card-text text-center"><b>$1000.50</b></p>
+                    <button class="btn" type="button" style="border: 1px solid black; margin-left: 25%; width: 50%;">Shop Now</button>
+                </div>
+            </div>
+            <div class="card ms-5" style="width: 23%; ">
+                <img src="images/card3.png" alt="ghesofa">
+                <div class="card-body">
+                    <h1 class="card-title text-center">New Chair</h1>
+                    <p class="card-text text-center"><b>$300.20</b></p>
+                    <button class="btn" type="button" style="border: 1px solid black; margin-left: 25%; width: 50%;">Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br><br><br>
+    
+    
+    
+
+    <div class="bg-dark text-white text-center" height="300px">
+        <h1>Furniture</h1>
+        <p>Lorem's house is a charming two-story residence located.Qui, AB?</p>
+        <img src="images/logo3.png" alt="logo">
+        <p> &copy; Copyright Furniture. All Right Reserved</p>
+        <p>Desighned By <span style="color: blue;">SA Coding</span></p>
+    </div>
+    
+</body>
